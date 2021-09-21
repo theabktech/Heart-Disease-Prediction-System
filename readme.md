@@ -75,30 +75,29 @@ sample. Make sure you save the train and test data as csv and use the import fil
 in H2O to import the file. Otherwise it will show error.
 #### ModelMetricsBinomialGLM: stackedensemble
 ** Reported on test data. **
-- MSE: 2.176736037589438e-05
-- RMSE: 0.004665550382955304
-- LogLoss: 0.0037261175657954835
-- Null degrees of freedom: 60
-- Residual degrees of freedom: 58
-- Null deviance: 83.82235374257142
-- Residual deviance: 0.4545863430270511
-- AIC: 6.454586343027051
-- AUC: 1.0
-- AUCPR: 1.0
-- Gini: 1.0
+- MSE: 0.1262443225071656
+- RMSE: 0.35530877065893773
+- LogLoss: 0.39211292860497726
+- Null degrees of freedom: 61
+- Residual degrees of freedom: 59
+- Null deviance: 87.33823102336312
+- Residual deviance: 48.62200314701718
+- AIC: 54.62200314701718
+- AUC: 0.9052083333333333
+- AUCPR: 0.8998449632217862
+- Gini: 0.8104166666666666
+
 
 ### Gradient Boosting Machine
 The data used in GBM is after feature engineering and selection. Once the process is done, 
 save the data into csv and call it using importfile function in H2O.
 #### ModelMetricsBinomial: gbm
 ** Reported on train data. **
-- MSE: 1.0522502836561015e-05
-- RMSE: 0.0032438407538843543
-- LogLoss: 0.0032435371251956766
-- Mean Per-Class Error: 0.0
-- AUC: 1.0
-- AUCPR: 1.0
-- Gini: 1.0
+- MSE: 0.174590790367034
+- RMSE: 0.4178406279516558
+- MAE: 0.3175680380336407
+- RMSLE: 0.29333831652179715
+- Mean Residual Deviance: 0.174590790367034
 
 Happy predictions!!!
 
